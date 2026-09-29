@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+}
+
+.centrado {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.centrado div {
+    width: 200px;
+    height: 200px;
+    font-size: 10px;
+    color: white;
+    background-color: rgb(199, 110, 172);
+}
+
+@media (max-width:768px){
+
+    .centrado div {
+        background-color: #d66e78;
+    }
+
+    .centrado {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
